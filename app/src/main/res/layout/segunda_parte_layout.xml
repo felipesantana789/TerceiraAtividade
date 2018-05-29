@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="70dp"
+    tools:context="br.senac.sp.l13.terceiraatividade.SegundaParteActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/segunda" />
+    
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:text="Profile name"
+        android:textColorHint="@color/Terceira1" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+
+        android:hint="Email: mail@email.com"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/Terceira1"
+        android:textSize="19sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone: +99 999 555 222"
+        android:textColorHint="@color/Terceira1"
+        android:textSize="19sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Skype: me007"
+        android:textColorHint="@color/Terceira1"
+        android:textSize="19sp" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Web: cssauthor.com/"
+        android:textColorHint="@color/Terceira1"
+        android:textSize="19sp" />
+
+
+</LinearLayout>

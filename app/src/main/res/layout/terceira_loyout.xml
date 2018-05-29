@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="120dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="br.senac.sp.l13.terceiraatividade.TerceiraLoyoutActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aspas"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:hint=" User Name"
+        android:textColorHint="@color/Terceira1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp"
+        android:textSize="19sp"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textSize="19sp"
+        android:text="00000000000"
+        android:textColor="@color/Terceira1"/>
+
+
+
+    <Button
+        android:hint="LOGIN ME"
+        android:background="@color/Terceira1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+
